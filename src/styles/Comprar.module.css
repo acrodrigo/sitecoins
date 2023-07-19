@@ -1,0 +1,42 @@
+
+.buy{
+    background-color: white;
+}
+
+.buy h1{
+    text-align: center;
+    padding: 1em 0;
+    color: #22142b;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.walk_box{
+    
+    /*border: 1px solid black;*/
+    padding: 1em;
+}
+
+.walk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #22142b;
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+
+   /*border: 1px solid red;*/
+}
+
+
+.walk h3{
+    padding: 0.5em 0;
+    color: #22142b;
+}
+
+.walk p{
+    margin: 0.5em 1em;
+    padding: 0.5em 0;
+}

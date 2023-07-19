@@ -1,0 +1,110 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 200px;*/
+    width: 200px;
+    /*padding: 1.5em 0;*/
+    border-radius: 10px;
+    margin: 0.5em auto;
+    border-radius: 1em;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.5);
+    background-color: white;
+    color: black;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3em auto;
+    font-size: 1.2em;
+    border-radius: 10px;
+    /*border: 1px solid black;*/
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3px;
+}
+
+.description h3{
+    font-weight: bold;
+    font-size: 1.2em;
+    /*background-color: turquoise;
+    border-radius: 0.2em;
+    padding: 0.2em 0.3em;*/
+}
+
+.description .price{
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    /*background-color: blue;
+    color: white;
+    border-radius: 0.2em;
+    padding: 0.1em 0.2em;*/
+}
+
+.description .console{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 0.8em 0;
+    /*border: 1px solid black;*/
+}
+
+/*
+.card h3{
+    font-size: 1.3em;
+}
+
+.card span{
+    font-size: 1em;
+    margin-bottom: 0.1em;
+}
+
+.console{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    font-size: 1.2em;
+}*/
+
+.playstation{
+    font-size: 1.5em;
+}
+
+.xbox{
+    color: #107C10;
+    font-size: 1.4em;
+    margin-left: 0.3em;
+}
+
+.origin{
+    color: #A53137
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: #222;
+    margin: 0.5em 0;
+    padding: .6em 1.1em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.card .btn:hover{
+    background-color: blue;
+    color: #fff;
+}
